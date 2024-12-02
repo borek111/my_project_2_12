@@ -1,3 +1,6 @@
 service : {
     "greet": (text) -> (text) query;
+    "get_msg": () -> (text) query;
+    "set_msg": (text) -> ();
+
 }
